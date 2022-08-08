@@ -32,7 +32,7 @@ const server = app.listen(PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://62f13a08181e8009ac9d3020--nimble-swan-d7e455.netlify.app/",
     credentials: true,
   },
 });
